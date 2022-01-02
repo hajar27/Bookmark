@@ -1,0 +1,3 @@
+.alert{opacity: 0;
+       transition: opacity .5s ease-in-out;
+       padding: 0rem 1rem;}

@@ -1,0 +1,111 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+ <div class="container py-5">
+  
+  <div class="form-group my3">
+    <label for="siteName">siteName</label>
+    <input type="text" class="form-control" id="siteName">
+    <p class="alert alert-danger"></p>
+  </div>
+  <div class="form-group my-3">
+    <label for="siteUrl">siteUrl</label>
+    <input type="text" class="form-control" id="siteUrl">
+    <p class="alert alert-danger"></p>
+  </div>
+  
+  <button class="btn btn-danger my-3 float-end" onclick="add()">add</button>
+
+
+  <input type="text" class="form-control mt-3" onkeyup="search(this.value)">
+
+  <div class="">
+  <table class="table">
+    <thead>
+      <th>siteName</th>
+      <th>siteUrl</th>
+      <th>delete</th>
+      <th>update</th>
+    </thead>
+    <tbody id="Row" class=""></tbody>
+  </table>
+  </div>
+  </div>
+  
+  
+<script src="js/index.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html> -->
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container py-5">
+    <header class="py-3">
+      <h1 class="fs-1 fw-bolder text-muted">
+        Bookmarker
+      </h1>
+    </header>
+    <div class="p-3 border border-end-0 border-start-0 border-dark">
+      <div class=" bg-light p-5">
+        <div class="text-center my-4">
+          <h2 class="fs-3">
+            Bookmark your favorite sites
+          </h2>
+        </div>
+        <div class="text-center my-4">
+          <label class="fw-bolder mb-3" for="siteName">Site Name</label>
+          <input type="text" class="form-control mb-1" id="siteName" placeholder="Bookmark Name">
+          <p class="alert alert-danger"></p>
+        </div>
+        <div class="text-center my-4">
+          <label class="fw-bolder mb-3" for="siteUrl">Site URL</label>
+          <input type="text" class="form-control mb-1" id="siteUrl" placeholder="Website URL">
+          <p class="alert alert-danger"></p>
+        </div>
+        <div class="text-center">
+          <button onclick="addBookMark()" class="btn btn-outline-info">Submit</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="table-toggle mt-5">
+      <table class="table">
+        <thead>
+          <th>siteName</th>
+          <th>siteUrl</th>
+          <th>delete</th>
+        </thead>
+        <tbody id="Row" class=""></tbody>
+      </table>
+    </div>
+  </div>
+
+
+  </div>
+
+
+</body>
+
+
+
+<script src="js/index.js"></script>
+
+
+</html>
